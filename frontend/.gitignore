@@ -1,0 +1,82 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+build/
+dist/
+out/
+.cache/
+
+# Static Bundlers
+.next/
+.nuxt/
+.svelte-kit/
+
+# Coverage reports
+coverage/
+
+# Temporary files and folders
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Debugging files
+*.pid
+*.seed
+*.pid.lock
+
+# ESLint and Prettier
+.eslintcache
+.prettier-cache
+
+# Miscellaneous
+*.tgz
+*.lock-wscript
+*.gz
+
+# TypeScript
+*.tsbuildinfo
+
+# Generated files
+*.map
+
+# Dependency caches
+.pnp/
+.pnp.js
+.cache-loader/
+
+# Testing
+jest-test-results.json
+.junit/
+
+# Framework-specific files
+# React
+public/**/*.hot-update.json
+
+# Vue
+public/hot-update.json
