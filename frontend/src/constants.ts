@@ -1,3 +1,3 @@
-const backendURL: string = 'http://localhost:8000/api/v1';
+const backendURL: string = 'https://mukt-backend.onrender.com/api/v1';
 
 export default backendURL;
