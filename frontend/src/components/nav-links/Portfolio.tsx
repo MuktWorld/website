@@ -17,10 +17,11 @@ export default function Portfolio() {
   const [portfolioItems, setPortfolioItems] = useState<PortfolioItem[]>([]);
   const [activeCategory, setActiveCategory] = useState(categories[0]); // Default to the first category
   const [visibleItems, setVisibleItems] = useState(8); // Number of items to display initially
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const fetchPortfolio = async () => {
+      setLoading(true);
       try {
         const response = await api.get("/portfolio/get-portfolio");
         console.log(response.data.data);
